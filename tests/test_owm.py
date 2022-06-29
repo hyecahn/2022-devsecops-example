@@ -40,5 +40,6 @@ def test_get_current_by_geo(mock_requests):
     lon = -79.46340866622046
     r = owmapi.get_current_by_geo(lat, lon)
     assert r == {"testkey": "testvalue"}
+    print("test")
 
 
